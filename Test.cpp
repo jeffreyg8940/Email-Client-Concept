@@ -1,7 +1,5 @@
-// Test.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <stack>
 using namespace std;
 //You have to create functions above main. C++ won't read any functions under main;
 //You no longer need to add public static before return type in visual studio 2022. 
@@ -12,6 +10,19 @@ string AskForName()
     cin >> name;
     return name;
 }
+
+void MakingAStack()
+{
+    stack<int> stack1;
+    stack<int> stack2;
+    stack.push(5);
+    stack.push(15);
+    stack.push(100);
+
+    stack2.push(stack1.pop());
+}
+
+
 
 int main()
 {
